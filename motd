@@ -1,26 +1,9 @@
 ################################################################################
-# Welcome to the k8s workshop
-#
-# workshop files are available in: $HOME/workshop
-# available tools: curl, tmux, vim, git, jq, bash_completion, dig
-# if you are unfamiliar with vi, use micro (https://github.com/zyedidia/micro)
-#
-# *** NEW *** to use nvim k8s yaml support, at the first nvim use run
-# :CocInstall coc-yaml
-#
-# NodePort type services are availabe on $EXTERNAL ip
-# You can use ssh to connect. Run the function: ssh-pubkey.
-#
-# helper functions:
-#   common-env - imports common env variables set by presenter
-#   ssh-pubkey - sets up ssh access to this session
-#   motd - Message Of The Day (displays this help text)
-#   svc - lists clickable NodePort services and Ingress urls
-#   k - Alias for kubectl with bash autocompletion
-#   prompt - switch on/off fancy prompt
-#   k8s-prompt - shows actual ctx/namespace in prompt
-#
+# Welcome to Gimlet Cloud shell
+
 # start with:
-#   kubectl version --short
-#   k get no
+#   kubectl get nodes
+#   kubectl get pods -A
+#   kubectl get gitrepositories -A
+#   kubectl get kustomization -A
 ################################################################################
